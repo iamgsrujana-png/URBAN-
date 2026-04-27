@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buy | URBAN</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="rent-page">
+
+  
+  <div class="navbar">
+    <div class="logo">URBAN</div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="rent.html">Rent</a>
+      <a href="buy.html" class="active">Buy</a>
+      <a href="commercial.html">Commercial</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="login">
+      <a href="login.html"><button>Login</button></a>
+    </div>
+  </div>
+
+  
+  <div class="rent-header">
+    <h1>Homes for Sale</h1>
+    <p>Explore premium homes available for purchase</p>
+  </div>
+
+ 
+  <div class="filter-bar">
+    <select>
+      <option>City</option>
+      <option>Bengaluru</option>
+      <option>Mumbai</option>
+      <option>Pune</option>
+    </select>
+
+    <select>
+      <option>Property Type</option>
+      <option>Apartment</option>
+      <option>Villa</option>
+      <option>Independent House</option>
+    </select>
+
+    <select>
+      <option>Budget</option>
+      <option>₹50L – ₹1Cr</option>
+      <option>₹1Cr – ₹2Cr</option>
+      <option>₹2Cr+</option>
+    </select>
+
+    <button class="search-btn">Search</button>
+</div>
+
+ 
+  <div class="rent-listings">
+
+    <div class="rent-card">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+      <div class="rent-info">
+        <h3>Luxury Villa</h3>
+        <p>Bengaluru • Sarjapur Road</p>
+        <span>₹2.4 Crore</span>
+      </div>
+    </div>
+
+    <div class="rent-card">
+      <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be">
+      <div class="rent-info">
+        <h3>3 BHK Apartment</h3>
+        <p>Mumbai • Powai</p>
+        <span>₹1.6 Crore</span>
+      </div>
+    </div>
+
+    <div class="rent-card">
+      <img src="https://images.unsplash.com/photo-1599423300746-b62533397364">
+      <div class="rent-info">
+        <h3>2 BHK Flat</h3>
+        <p>Pune • Hinjewadi</p>
+        <span>₹95 Lakh</span>
+      </div>
+    </div>
+
+    <div class="rent-card">
+      <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994">
+      <div class="rent-info">
+        <h3>Independent House</h3>
+        <p>Hyderabad • Jubilee Hills</p>
+        <span>₹1.8 Crore</span>
+      </div>
+    </div>
+
+    <div class="rent-card">
+      <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde">
+      <div class="rent-info">
+        <h3>Modern Apartment</h3>
+        <p>Bengaluru • Whitefield</p>
+        <span>₹1.1 Crore</span>
+      </div>
+    </div>
+
+    <div class="rent-card">
+      <img src="data:image/jpeg;base64,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">
+      <div class="rent-info">
+        <h3>Premium Villa</h3>
+        <p>Pune • Baner</p>
+        <span>₹2.9 Crore</span>
+      </div>
+    </div>
+    <div class="rent-card">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+      <div class="rent-info">
+        <h3>Luxury Villa</h3>
+        <p>Bengaluru • Sarjapur Road</p>
+        <span>₹2.4 Crore</span>
+      </div>
+    </div>
+
+    <div class="rent-card">
+      <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be">
+      <div class="rent-info">
+        <h3>3 BHK Apartment</h3>
+        <p>Mumbai • Powai</p>
+        <span>₹1.6 Crore</span>
+      </div>
+    </div>
+   
+
+
+
+</div>
+
+</div>
+
+</body>
+</html>
